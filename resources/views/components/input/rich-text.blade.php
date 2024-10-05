@@ -23,7 +23,7 @@
     <input id="x" class="hidden">
     <trix-editor x-ref="trix" input="x" placeholder="{{$placeholder}}"
                  class="overflow-y-auto text-ellipsis form-textarea block text
-                    rounded-lg appearance-none border-2 {{$height,$width}}
+                    rounded-lg appearance-none border-2 {{$height}} {{$width}}
                     border-gray-200 py-2 px-3 bg-white text-zinc-700
                     placeholder-gray-400 text-base focus:outline-none
                     focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-150 ease-in-out"></trix-editor>
