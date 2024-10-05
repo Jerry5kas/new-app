@@ -15,7 +15,23 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                roboto:["Roboto Condensed", "sans-serif"],
+                asul:["Asul", "sans-serif"],
+                merri:["Merriweather", "sans-serif"]
+
             },
+            animation: {
+                marquee: 'marquee 25s linear infinite',
+            },
+            keyframes: {
+                marquee: {
+                    '0%': { transform: 'translateX(0%)' },
+                    '100%': { transform: 'translateX(-100%)' },
+                },
+            },
+            screens: {
+                'print': { 'raw': 'print' },
+            }
         },
     },
 
